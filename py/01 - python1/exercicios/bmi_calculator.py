@@ -4,15 +4,15 @@
 
 # bmi calculator
 
-name1 = "Yk"
+name1 = "John"
 height_m1 = 2
 weight_kg1 = 90
 
-name2 = "Yk´s Sister"
+name2 = "Mathews"
 height_m2 = 1.8
 weight_kg2 = 70
 
-name3 = "Yk´s Brother"
+name3 = "Philip"
 height_m3 = 2.5
 weight_kg3 = 160
 
@@ -20,7 +20,7 @@ weight_kg3 = 160
 def bmi_calculator(name, height_m, weight_kg):
     bmi = weight_kg / (height_m ** 2)
     print("bmi: ")
-    print(bmi)
+    print("%1.2f" % (bmi))
     if bmi < 25:
         print(name + " not overweight")
     else:
