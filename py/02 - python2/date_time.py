@@ -8,7 +8,7 @@ import datetime
 print(datetime.date.today().day)
 
 if datetime.date.today().day == 9:
-    print("hoje e o seu dia! Dia", date.today().day)
+    print("hoje e o seu dia!", date.today().day)
 else:
     print("hoje nao e seu dia!")
 
