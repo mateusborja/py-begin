@@ -3,7 +3,7 @@
 #  www.mateusborja.life
 
 
-frase = 'Auditoria Interna - Painel de Auditoria - Auditoria em Andamento'
+frase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 ct = 0
 for i in frase:
     ct+= 1
