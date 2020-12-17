@@ -2,7 +2,7 @@
 #  Mateus Borja // UX Designer • 3D Artist • Developer
 #  www.mateusborja.life
 
-print("Digite o nome: ")
+print("search a name: ")
 func = input()
 
 list = {"Mateus": "Developer Java", "Felipe": "Developer C++", "Joao": "Developer C#"}
